@@ -1,4 +1,5 @@
 
+Claude finished the response
 cse student er jonno github er readme file baniye daw sadia khan er jonno
 
 
@@ -37,6 +38,47 @@ Projects table এ আসল project info
 
 Readme v2
 Document · MD 
+kichu change holo na kisher image dibo tumi nij theke kichu image ja add korte hoi
+
+
+Prepared to respond clearly in Bangla communication
+Prepared to respond clearly in Bangla communication
+Confusion clear kori — GitHub profile README এ তোমাকে কোনো image upload/design করতে হবে না। সব image auto-generate হয় link দিয়ে:
+
+Top banner — এখন যোগ করে দিয়েছি (capsule-render দিয়ে auto বানানো wave animation banner, নাম সহ)। এটা কোনো ফাইল আপলোড ছাড়াই GitHub এ show হবে।
+GitHub Stats cards — এগুলোও auto-generate হয়, শুধু your-github-username জায়গায় Sadia এর আসল GitHub username বসাতে হবে, তাহলেই আসল data দেখাবে।
+Skill badges — এগুলোও শুধু link, কোনো image লাগবে না।
+তার মানে image বলতে তোমাকে নিজে কিছু upload করতে হবে না — শুধু নিচের text গুলো replace করে দিলেই README সম্পূর্ণ smart দেখাবে:
+
+your-github-username → GitHub username (৩ জায়গায় আছে)
+your-email@example.com, your-linkedin, your-portfolio.com
+[topic], [interest], [goal] — About section এ
+Education ও Projects table এর তথ্য
+যদি চাও profile picture ও দেখাতে (top এ round photo), সেটা optional — চাইলে বলো, ওটাও যোগ করে দিচ্ছি।
+
+
+Readme v2
+Document · MD 
+যদি চাও profile picture ও দেখাতে (top এ round photo), সেটা optional — চাইলে বলো, ওটাও যোগ করে দিচ্ছি।daw profile image o ekta sample kichu diye rakho ami pore add kore nibo
+
+
+Edited a file, read a file
+Edited a file, read a file
+Banner এর নিচে একটা sample circular placeholder photo যোগ করে দিয়েছি (নীল ব্যাকগ্রাউন্ডে "Photo" লেখা)।
+
+পরে নিজের ছবি বসাতে চাইলে:
+
+তোমার GitHub repo তে ছবিটা upload করো (যেমন একটা assets ফোল্ডারে profile.jpg নামে)
+এই লাইনটা —
+<img src="https://via.placeholder.com/150/2E9EF7/ffffff?text=Photo" width="150" height="150" style="border-radius:50%;"/>
+এর src অংশটা replace করে দাও তোমার ছবির GitHub raw link দিয়ে, যেমন:
+
+<img src="https://raw.githubusercontent.com/your-github-username/your-github-username/main/profile.jpg" width="150" height="150" style="border-radius:50%;"/>
+অথবা সহজ পথ — ছবিটা imgur.com এ আপলোড করে সরাসরি সেই link ও বসাতে পারো।
+
+
+Readme v2
+Document · MD 
 
 
 
@@ -46,8 +88,7 @@ Claude is AI and can make mistakes. Please double-check responses.
 
 
 Readme v2 · MD
-<div align="center">
-Sadia Khan
+<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E9EF7,100:6DD5FA&height=180&section=header&text=Sadia%20Khan&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Computer%20Science%20%26%20Engineering%20Student&descAlignY=60&descSize=18" width="100%"/> </div> <div align="center"> <img src="https://via.placeholder.com/150/2E9EF7/ffffff?text=Photo" width="150" height="150" style="border-radius:50%;"/>
 Computer Science & Engineering Student
 
 Show Image Show Image Show Image
